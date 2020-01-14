@@ -1,7 +1,8 @@
     //Plus & Minus for Quantity product
     $(document).ready(function(){
-        var quantity = 1;
         var total = 0;
+        var quantity = 1;
+        var subtotal = 0;
         // produk1
         $('.quantity-right-plus').click(function(e){
             e.preventDefault();
@@ -11,8 +12,9 @@
             var newQuantity = parseInt($('#quantity').val());
             const subtotal = newQuantity*prize
             $('.subtotal').val(subtotal)
-            total += subtotal
-            $('.total').text(`Rp ${total}`)
+            console.log(subtotal)
+            total += subtotal-(quantity*prize)
+            $('.total').text(`Rp ${(total)}`)
         });
 
         $('.quantity-left-minus').click(function(e){
@@ -24,7 +26,7 @@
                 var newQuantity = parseInt($('#quantity').val());
                 const subtotal = newQuantity*prize
                 $('.subtotal').val(subtotal)
-                total -= quantity*prize
+                total -= quantity*prize-(subtotal)
                 $('.total').text(`Rp ${total}`)
             }
         });
@@ -37,7 +39,8 @@
             var newQuantity = parseInt($('#quantity2').val());
             const subtotal = newQuantity*prize
             $('.subtotal2').val(subtotal)
-            total += subtotal
+            console.log(subtotal)
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -50,7 +53,7 @@
                 var newQuantity = parseInt($('#quantity2').val());
                 const subtotal = newQuantity*prize
                 $('.subtotal2').val(subtotal)
-                total -= quantity*prize
+                total -= quantity*prize-(subtotal)
                 $('.total').text(`Rp ${total}`)
             }
         });
@@ -63,7 +66,7 @@
             var newQuantity = parseInt($('#quantity3').val());
             const subtotal = newQuantity*prize
             $('.subtotal3').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -76,7 +79,7 @@
               var newQuantity = parseInt($('#quantity3').val());
               const subtotal = newQuantity*prize
               $('.subtotal3').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         }); 
@@ -89,7 +92,7 @@
             var newQuantity = parseInt($('#quantity4').val());
             const subtotal = newQuantity*prize
             $('.subtotal4').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -102,7 +105,7 @@
               var newQuantity = parseInt($('#quantity4').val());
               const subtotal = newQuantity*prize
               $('.subtotal4').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });
@@ -115,7 +118,7 @@
             var newQuantity = parseInt($('#quantity5').val());
             const subtotal = newQuantity*prize
             $('.subtotal5').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -128,7 +131,7 @@
               var newQuantity = parseInt($('#quantity5').val());
               const subtotal = newQuantity*prize
               $('.subtotal5').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
@@ -141,7 +144,7 @@
             var newQuantity = parseInt($('#quantity6').val());
             const subtotal = newQuantity*prize
             $('.subtotal6').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -154,7 +157,7 @@
               var newQuantity = parseInt($('#quantity6').val());
               const subtotal = newQuantity*prize
               $('.subtotal6').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
@@ -167,7 +170,7 @@
             var newQuantity = parseInt($('#quantity7').val());
             const subtotal = newQuantity*prize
             $('.subtotal7').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -180,7 +183,7 @@
               var newQuantity = parseInt($('#quantity7').val());
               const subtotal = newQuantity*prize
               $('.subtotal7').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
@@ -193,7 +196,7 @@
             var newQuantity = parseInt($('#quantity8').val());
             const subtotal = newQuantity*prize
             $('.subtotal8').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -206,7 +209,7 @@
               var newQuantity = parseInt($('#quantity8').val());
               const subtotal = newQuantity*prize
               $('.subtotal8').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
@@ -219,7 +222,7 @@
             var newQuantity = parseInt($('#quantity9').val());
             const subtotal = newQuantity*prize
             $('.subtotal9').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -232,7 +235,7 @@
               var newQuantity = parseInt($('#quantity9').val());
               const subtotal = newQuantity*prize
               $('.subtotal9').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
@@ -245,7 +248,7 @@
             var newQuantity = parseInt($('#quantity10').val());
             const subtotal = newQuantity*prize
             $('.subtotal10').val(subtotal)
-            total += subtotal
+            total += subtotal-(quantity*prize)
             $('.total').text(`Rp ${total}`)
         });
 
@@ -258,9 +261,9 @@
               var newQuantity = parseInt($('#quantity10').val());
               const subtotal = newQuantity*prize
               $('.subtotal10').val(subtotal)
-              total -= quantity*prize
+              total -= quantity*prize-(subtotal)
               $('.total').text(`Rp ${total}`)
             }
         });   
-        
+
     });

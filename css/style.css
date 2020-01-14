@@ -6,6 +6,7 @@
     background-color: #2b2d42;
     color: #777a9e;
 }
+
 .nav{
     padding: 40px;
 }
@@ -104,17 +105,7 @@
     text-align: center;
 } */
 
-.btn a {
-    border: 0px solid #d5d5d5;
-    display: block;
-    font-size: 18px;
-    height: 44px;
-    line-height: 44px;
-    text-align: center;
-    width: 44px;
-    transition: 0.3s;
-    background: #e25049;
-}
+
 .btn.buy_now_btn a {
     color: #fff;
     font-size: 14px;
@@ -213,3 +204,16 @@
 }
 
 
+/* kontak */
+.konten img{
+    height: 100px;
+    width: 100px;
+}
+.bg-kontak{
+    background-color: #2b2d42;
+    color: white;
+}
+.konten{
+    padding-bottom: 10px;;
+    padding-top: 10px;
+}

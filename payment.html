@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/title.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Drink Space</title>
+
+  </head>
+  <body>
+    <!-- <div class="container-xl"> -->
+      <div class="header bg-custom nav">
+        <div class="container">
+          <nav class="wrap navbar navbar-expand-lg navbar-dark bg-custom mt-1">
+            <a class="navbar-brand stylee" href="index.html">DrinkSpace</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Product
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="teh.html">Teh</a>
+                    <a class="dropdown-item" href="kopi.html">Kopi</a>
+                    <a class="dropdown-item" href="susu.html">Susu</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="kontak.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="cari">
+              <form class="form-inline my-2 my-lg-0 mr-2">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" placeholder="Search...">
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-light btn-number">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+                <a class="ml-2" href="cart.html">
+                    <i class="fa fa-shopping-cart fa-lg"></i> 
+                </a>
+            </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="col-md-6">
+            <img src="img/headers.jpg" class="img-fluid" alt="Responsive image">
+          </div>
+          <div class="col-md-6 my-auto">
+              <div class="container text-uppercase text-center">
+                  <h1 class="stylee">Drink Space</h1>
+                  <h5 class="">menjual berbagai brand minuman botol terkenal </h5>
+                  <p class="text-danger">untuk pembelian silahkan klik dibawah ini</p>
+                  <a href="cart.html" class="btn btn-danger">BELI SEKARANG</a>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb bg-white">
+                        <li class="breadcrumb-item"><a href="index.html" class="text-link">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+                        <li class="breadcrumb-item active" aria-current="page">Checkout</li>
+                    </ol>  
+                </nav>
+            </div>
+        </div>
+        <div class="row">
+          
+          <div class="col-md-8 order-md-1">
+            <h4 class="mb-3">Shipping address</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <!-- <label for="firstName">Nama depan</label> -->
+                  <input type="text" class="form-control" id="firstName" placeholder="nama depan" value="" required>
+                  <div class="invalid-feedback">
+                    Valid first name is required.
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <!-- <label for="lastName">Nama belakang</label> -->
+                  <input type="text" class="form-control" id="lastName" placeholder="nama belakang" value="" required>
+                  <div class="invalid-feedback">
+                    Valid last name is required.
+                  </div>
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <!-- <label for="email">Email <span class="text-muted">(Optional)</span></label> -->
+                <input type="email" class="form-control" id="email" placeholder="Email">
+                <div class="invalid-feedback">
+                  Please enter a valid email address for shipping updates.
+                </div>
+              </div>
+    
+              <div class="mb-3">
+                <!-- <label for="email">Email <span class="text-muted">(Optional)</span></label> -->
+                <input type="email" class="form-control" id="phone" placeholder="No. Telephone">
+                <div class="invalid-feedback">
+                  Please enter a valid phone for shipping updates.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <!-- <label for="address">Alamat lengkap</label> -->
+                <input type="text" class="form-control" id="address" placeholder="Alamat lengkap" required>
+                <div class="invalid-feedback">
+                  Please enter your shipping address.
+                </div>
+              </div>
+      
+              <div class="mb-3">
+                <!-- <label for="address2">Kota/Kabupaten</label> -->
+                <input type="text" class="form-control" id="address2" placeholder="kota/Kabupaten">
+              </div>
+      
+              <div class="row">
+                <div class="col-md-5 mb-3">
+                  <label for="country">Negara</label>
+                  <select class="custom-select d-block w-100" id="country" required>
+                    <option value="">Pilih...</option>
+                    <option>Indonesia</option>
+                  </select>
+                  <div class="invalid-feedback">
+                    Please select a valid country.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <label for="zip">Provinsi</label>
+                    <input type="text" class="form-control" id="zip" placeholder="Jawa Tengah" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid state.
+                    </div>
+                  </div>
+                <div class="col-md-3 mb-3">
+                  <label for="zip">Kode Pos</label>
+                  <input type="text" class="form-control" id="zip" placeholder="51252" required>
+                  <div class="invalid-feedback">
+                    Zip code required.
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="save-info">
+                <label class="custom-control-label" for="save-info">simpan informasi ini untuk lain kali</label>
+              </div>
+              <hr class="mb-4">
+      
+              <h4 class="mb-3">Payment</h4>
+      
+              <div class="d-block my-3">
+                <div class="custom-control custom-radio">
+                  <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                  <label class="custom-control-label" for="credit">Credit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                  <label class="custom-control-label" for="debit">Debit card</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                  <label class="custom-control-label" for="paypal">PayPal</label>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="cc-name">Name on card</label>
+                  <input type="text" class="form-control" id="cc-name" placeholder="Shawn Mendes" required>
+                  <small class="text-muted">Full name as displayed on card</small>
+                  <div class="invalid-feedback">
+                    Name on card is required
+                  </div>
+                </div>
+                <div class="col-md-6 mb-3">
+                  <label for="cc-number">Credit card number</label>
+                  <input type="text" class="form-control" id="cc-number" placeholder="5523 2124 1154 8907" required>
+                  <div class="invalid-feedback">
+                    Credit card number is required
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 mb-3">
+                  <label for="cc-expiration">Expiration</label>
+                  <input type="text" class="form-control" id="cc-expiration" placeholder="09/22" required>
+                  <div class="invalid-feedback">
+                    Expiration date required
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="cc-cvv">CVV</label>
+                  <input type="text" class="form-control" id="cc-cvv" placeholder="134" required>
+                  <div class="invalid-feedback">
+                    Security code required
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+            <button class="btn btn-danger btn-lg btn-block" type="submit">Continue to checkout</button>
+         </form>
+          </div>
+        </div>
+      </div>
+
+    <div class="footer mt-3">
+      <div class="jumbotron mb-0 ">
+        <footer class="text-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 mt-2">
+                        <h5>About</h5>
+                        <p>
+                          DrinkSpace adalah sebuah toko yang menyediakan berbagai minuman kaleng dari bran-brand terkenal. Kami siap menerima berapapun jumlah pesanan dan brand apapun. KAMI SIAP MELAYANI ANDA...!!!
+                        </p>
+                    </div>
+                    <div class="col-md-3 col-sm-12 offset-md-3 mt-4">
+                        <h5>Find me on</h5>
+                        <div class="social-media d-flex">
+                          <a href="https://www.youtube.com/" class="btn btn-outline-primary rounded ml">
+                              <i class="fab fa-youtube" ></i>
+                          </a>
+                          <a href="https://www.facebook.com/" class="btn btn-outline-primary rounded ml-2">
+                              <i class="fab fa-facebook-f" ></i>
+                          </a>
+                          <a href="https://www.instagram.com/" class="btn btn-outline-primary rounded ml-2">
+                              <i class="fab fa-instagram" ></i>
+                          </a>
+                          <a href="https://twitter.com/?lang=en" class="btn btn-outline-primary rounded ml-2">
+                              <i class="fab fa-twitter" ></i>
+                          </a>
+                      </div>
+                    </div>
+                    <div class="offset-md-11 col-md-1 col-sm-12 copyright mt-3">
+                        <p class="float-left">
+                          <a href="#" class="text-primary"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      </div>
+    </div>
+    <div class="container-fluid bg-custom">
+      <div class="row">
+          <div class="col-md-12">
+              <p class="text-center mt-2 stylee ">
+                  <i class="far fa-copyright"></i>
+                  Copyright DRINKSPACE 
+              </p>
+          </div>
+      </div>
+  </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
