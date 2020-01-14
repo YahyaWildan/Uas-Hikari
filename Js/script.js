@@ -14,6 +14,21 @@
             $('.subtotal').val(subtotal)
             console.log(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${(total)}`)
         });
 
@@ -41,6 +56,14 @@
             $('.subtotal2').val(subtotal)
             console.log(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
+            
             $('.total').text(`Rp ${total}`)
         });
 
@@ -67,6 +90,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal3').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -93,6 +123,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal4').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -119,6 +156,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal5').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -145,6 +189,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal6').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -171,6 +222,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal7').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -197,6 +255,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal8').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -223,6 +288,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal9').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
@@ -249,6 +321,13 @@
             const subtotal = newQuantity*prize
             $('.subtotal10').val(subtotal)
             total += subtotal-(quantity*prize)
+            if(total > 100000){
+                total2=total-(total*0.1);
+                $('.total2').text(`Rp ${(total2)}`)
+            }else{
+                total2=total;
+                $('.total2').text(`Rp ${(total2)}`)
+            }
             $('.total').text(`Rp ${total}`)
         });
 
