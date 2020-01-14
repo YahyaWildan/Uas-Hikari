@@ -60,3 +60,156 @@
     height: 50px;
     width: 50px;
 }
+/* .carousel-item img{
+    height: 300px;
+    width: 100%;
+} */
+
+
+/* produk */
+.home{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.home a:hover{
+    color: #ff4136;
+    text-decoration: none;
+}
+.pt--120{
+    padding-top: 120px;
+}
+.ht__bradcaump__wrap {
+    align-items: center;
+    display: flex;
+    height: 320px;
+}
+.brd-separetor {
+    padding: 0 5px;
+}
+
+.checked{
+    color: orange;
+}
+.prices {
+    display: flex;
+    margin-bottom: 26px;
+    margin-top: 20px;
+    margin-left:0px;
+    color: #ff4136;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* .btn {
+    display: flex;
+    text-align: center;
+} */
+
+.btn a {
+    border: 0px solid #d5d5d5;
+    display: block;
+    font-size: 18px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 44px;
+    transition: 0.3s;
+    background: #e25049;
+}
+.btn.buy_now_btn a {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 175px;
+    transition: 0.3s; 
+}
+.btn.buy_now_btn a:hover{
+    color: #fff;
+    background: #ff4136;
+    border: 1px solid #ff4136;
+    text-decoration: none;
+}
+.product_tab_content:not(.active) {
+    display: none;
+  }
+.product_deatils_tab {
+    border-bottom: 1px solid #d5d5d5;
+    display: flex;
+    justify-content: center;
+}
+.product_deatils_tab li a {
+    color: #505050;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 17px;
+    position: relative;
+    text-transform: capitalize;
+    display: block;
+}
+.product_deatils_tab li {
+    padding: 0 30px;
+}
+
+.product_deatils_tab li.active a::before {
+    width: 100%;
+    
+}
+.product_deatils_tab li a:hover {
+    width: 100%;
+    text-decoration: none;
+    color: #ff4136;
+}
+.product_desc p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: justify;
+}
+.product_desc {
+    margin-bottom: 50px;
+    padding: 30px;
+}
+.title_6 {
+    color: #505050;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 28px;
+    text-transform: capitalize;
+}.rating{
+    margin-left: -35px;
+}
+.rating1{
+    margin-left:-100px;
+}
+.rating_wrap{
+    padding-top: 20px;
+    
+}
+.rating_wrap h2.rating-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    text-transform: capitalize;
+}
+.rating_wrap h4.rating-title-2 {
+    color: #999;
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-left: -60px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.date{
+    color: #666666;
+}
+.text{
+    font-size: 14px;
+    color: #505050;
+}
+.icon-person{
+    height: 100px;
+    width: 100px;
+    
+    margin-left: -30px;
+}
+
+
